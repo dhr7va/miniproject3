@@ -1,0 +1,72 @@
+body {
+    background-position: fixed;
+    color: white;
+}
+
+h1 {
+    padding-left: 10px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.container {
+    margin-top: 81px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid;
+    height: 100%;
+    background-color: #e8dff5;
+    flex-flow: row wrap;
+}
+
+
+.item-0,
+.item-1,
+.item-2,
+.item-3,
+.item-4,
+.item-5,
+.item-6,
+.item-7,
+.item-8,
+.item-9,
+.item-10 {
+
+    float: left;
+    width: 251px;
+    height: 100%;
+    color: rgb(14, 13, 12);
+    background-color: #fcf4dd;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+@media only screen and (max-device-width: 585px) {
+
+    .item-0,
+    .item-1,
+    .item-2,
+    .item-3,
+    .item-4,
+    .item-5,
+    .item-6,
+    .item-7,
+    .item-8,
+    .item-9,
+    .item-10 {
+        width: 96%;
+    }
+}
+
+
+.nav {
+    position: fixed;
+    background-color: #fce1e4;
+    width: 100vw;
+    height: 71px;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 1;
+}
